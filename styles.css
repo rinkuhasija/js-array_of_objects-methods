@@ -1,0 +1,49 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FAAB78;
+}
+
+.buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.head {
+    margin-left: 20rem ;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0px 8px 20px #0000007a;
+}
+
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
