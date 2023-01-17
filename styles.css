@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1.6rem;
+    row-gap: 3rem;
     justify-content: space-around;
 }
 
